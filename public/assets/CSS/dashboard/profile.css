@@ -1,0 +1,35 @@
+
+#previewImageProfile{
+    margin-left: 280px;
+    border-radius: 50%;
+    border:1px solid gray;
+    width: 250px; 
+    height: 280px; 
+    margin-top: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.EditPhotoLabelProfile{
+    padding: 10px 20px; 
+    background-color: #5e60ce; 
+    color: #fff; 
+    cursor: pointer; 
+    border-radius: 4px;
+    position: absolute;
+    left:370px;
+    top:415px
+
+}
+.AddInputDivProfile{
+    margin-left:650px;
+    position:relative;
+    width:550px;
+    top:40px;
+}
+.SubmitProfile{
+    margin-top:60px;
+    background-color: #5e60ce;
+    margin-left:1140px;
+    border:none;
+}

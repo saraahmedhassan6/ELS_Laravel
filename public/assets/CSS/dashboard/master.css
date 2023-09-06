@@ -1,0 +1,131 @@
+aside{
+    background-color:#264653;
+    width:250px;
+    border-radius:20px;
+    height:630px;
+    margin-left:10px;
+    position: fixed;
+}
+.sider-menu-div{
+    margin-left: 70px;
+    margin-top:20px
+}
+.sider-menu-list{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    z-index: 9999;
+}
+.sider-menu-list:hover{
+    color:rgba(255, 255, 255, 0.758);
+    text-decoration: none;
+    
+}
+.AddButton {
+    background-color: #f6bd60;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight:600;
+    cursor: pointer;
+    margin-left:300px;
+    padding:5px 15px
+}
+
+.AddButton:hover{
+    background-color: #f6bd60;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid  #f6bd60;
+}
+
+.headerOne{
+    margin-left:300px;
+    color: rgb(24, 19, 112);
+    margin-top:10px;
+
+}
+.headerFive{
+    margin-left:300px;
+    color: rgb(176, 175, 175);
+
+}
+#basic_table{
+    margin-left:300px;
+    width:1000px;
+    height:45px;
+    margin-top:20px;
+    border-radius:50px;
+    text-align: center;
+}
+.ShowImgTable{
+    width:110px;
+    height:60px;
+}
+.ActionButton{
+    background-color: transparent;
+    border:none
+}
+#modal_basic{
+    max-width: 70%;
+    margin-left:300px;
+    margin-top:60px;
+}
+#modal_content{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.AddImgDiv{
+    position: absolute;
+    top: 20px; 
+    left: 40px;
+}
+.previewImage{
+    display: none; 
+    max-width: 200px;
+    max-height:250px; 
+    height:250px; 
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.EditPhotoLabel{
+    padding: 10px 20px; 
+    background-color: #5e60ce; 
+    color: #fff; 
+    cursor: pointer; 
+    border-radius: 4px;
+    margin-left: 60px;
+}
+.AddInputDiv{
+    width:550px;
+    margin-left:280px;
+}
+.AddLabel{
+    color:black;
+    font-weight:600;
+}
+#Submit{
+    background-color: #5e60ce;
+    margin-left:760px;
+    border:none;
+
+}
+select{
+    max-height:47px;
+}
+#modal_delete_basic{
+    max-width: 50%;
+    margin-left:400px;
+    margin-top:60px;
+}
+#Delete{
+    background-color: #5e60ce;
+    margin-left:560px;
+    border:none;
+}
+.DeleteLabel{
+    color:white;
+    font-size:20px;
+    font-weight:600px;
+}
